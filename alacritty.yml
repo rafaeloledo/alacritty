@@ -8,7 +8,7 @@ window:
   padding:
     x: 5
     y: 3
-  opacity: 0.5
+  opacity: 0.8
 
 font:
   normal:
@@ -28,3 +28,7 @@ font:
 
 selection:
   save_to_clipboard: true
+
+colors:
+  primary:
+    background: "#000000"
