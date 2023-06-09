@@ -24,9 +24,11 @@ font:
   bold_italic:
     family: Hack Nerd Font
     style: Bold Italic
-  size: 13.0
+  size: 14.0
 selection:
   save_to_clipboard: true
 cursor:
   style:
     shape: Beam
+key_bindings:
+  - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
