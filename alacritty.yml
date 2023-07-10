@@ -4,9 +4,9 @@ env:
   TERM: alacritty
 
 window:
-  dimensions:
-    columns: 123
-    lines: 37
+  #dimensions:
+  #   columns: 123
+  #   lines: 37
   padding:
     x: 9
     y: 9
