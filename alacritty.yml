@@ -1,5 +1,5 @@
-import:
-  - ~/.config/alacritty/rose-pine.yml
+custom_cursor_colors: true
+
 env:
   TERM: alacritty
 
@@ -32,3 +32,10 @@ cursor:
     shape: Beam
 key_bindings:
   - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
+
+color_depth: 24
+
+colors:
+  cursor:
+    text: "#000000"
+    cursor: "#7A8C8C"
