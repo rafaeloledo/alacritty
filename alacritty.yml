@@ -1,5 +1,3 @@
-custom_cursor_colors: true
-
 env:
   TERM: alacritty
 
@@ -33,8 +31,8 @@ cursor:
 key_bindings:
   - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
 
+custom_cursor_colors: true
 color_depth: 24
-
 colors:
   cursor:
     text: "#000000"
