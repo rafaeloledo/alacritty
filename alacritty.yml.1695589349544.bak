@@ -1,0 +1,39 @@
+env:
+  TERM: alacritty
+
+window:
+  padding:
+    x: 9
+    y: 9
+  opacity: 0.8
+
+font:
+  normal:
+    Default:
+    family: Hack Nerd Font
+    style: Regular
+  bold:
+    family: Hack Nerd Font
+    style: Bold
+  italic:
+    family: Hack Nerd Font
+    style: Italic
+  bold_italic:
+    family: Hack Nerd Font
+    style: Bold Italic
+  size: 14.0
+selection:
+  save_to_clipboard: true
+
+cursor:
+  style:
+    shape: Beam
+key_bindings:
+  - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
+
+custom_cursor_colors: true
+color_depth: 24
+colors:
+  cursor:
+    text: "#000000"
+    cursor: "#7A8C8C"
