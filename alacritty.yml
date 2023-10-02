@@ -33,7 +33,7 @@ cursor:
     shape: Beam
 key_bindings:
   - { key: Return, mods: Super|Shift, action: SpawnNewInstance }
-  - { key: Escape,  action: ToggleVIMode }
+  - { key: Escape, mods: Control, action: ToggleVIMode }
 custom_cursor_colors: true
 color_depth: 24
 colors:
