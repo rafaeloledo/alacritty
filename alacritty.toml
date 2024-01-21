@@ -1,40 +1,37 @@
-color_depth = 24
-custom_cursor_colors = true
-theme = "Solarized-Dark"
+# Colors (Solarized Dark)
 
-[colors.bright]
-black = "#002b36"
-blue = "#839496"
-cyan = "#93a1a1"
-green = "#586e75"
-magenta = "#6c71c4"
-red = "#cb4b16"
-white = "#fdf6e3"
-yellow = "#657b83"
-
-[colors.cursor]
-cursor = "#839496"
-text = "#002b36"
-
-[colors.normal]
-black = "#073642"
-blue = "#268bd2"
-cyan = "#2aa198"
-green = "#859900"
-magenta = "#d33682"
-red = "#dc322f"
-white = "#eee8d5"
-yellow = "#b58900"
-
+# Default colors
 [colors.primary]
-background = "#002b36"
-foreground = "#839496"
+background = '#002b36'
+foreground = '#839496'
+
+# Normal colors
+[colors.normal]
+black   = '#073642'
+red     = '#dc322f'
+green   = '#859900'
+yellow  = '#b58900'
+blue    = '#268bd2'
+magenta = '#d33682'
+cyan    = '#2aa198'
+white   = '#eee8d5'
+
+# Bright colors
+[colors.bright]
+black   = '#586e75'
+red     = '#cb4b16'
+green   = '#586e75'
+yellow  = '#657b83'
+blue    = '#839496'
+magenta = '#6c71c4'
+cyan    = '#93a1a1'
+white   = '#fdf6e3'
 
 [cursor.style]
 shape = "Beam"
 
 [env]
-TERM = "alacritty"
+TERM = "xterm-256color"
 
 [font]
 size = 14.0
@@ -73,3 +70,4 @@ lines = 33
 [window.padding]
 x = 9
 y = 9
+
